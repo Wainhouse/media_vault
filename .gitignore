@@ -1,0 +1,52 @@
+# Node.js dependencies
+node_modules/
+.pnpm-store/
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env
+.env.local
+.env.*.local
+apps/**/.env
+packages/**/.env
+infra/**/.env
+
+# Next.js build output
+.next/
+out/
+
+# NestJS build output
+apps/api/dist/
+apps/api/.nestjs/
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+prisma/migrations/
+
+# Docker
+docker-compose.override.yml
+**/.docker-volume/
+
+# VSCode
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Testing
+coverage/
+*.lcov
+
+# IDEs & OS
+.idea/
+*.sw?
+Thumbs.db
